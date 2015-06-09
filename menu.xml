@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+
+<menu id="root-menu" label="datacentre">
+  <separator label="Openbox"/>
+
+  <item label="firefox">
+	    <action name="Execute">
+		<enabled>yes</enabled>
+		<name>firefox</name>
+		<command>firefox</command>
+	    </action>
+  </item>
+
+
+  <item label="urxvt">
+	    <action name="Execute">
+		<enabled>yes</enabled>
+		<name>urxvt</name>
+		<command>urxvt</command>
+	    </action>
+  </item>
+
+  <item label="vim">
+	    <action name="Execute">
+		<enabled>yes</enabled>
+		<name>vim</name>
+		<command>urxvt -e vim</command>
+	    </action>
+  </item>
+
+
+  <item label="gvim">
+	    <action name="Execute">
+		<enabled>yes</enabled>
+		<name>gvim</name>
+		<command>gvim</command>
+	    </action>
+  </item>
+
+
+  <item label="vlc">
+	    <action name="Execute">
+		<enabled>yes</enabled>
+		<name>vlc</name>
+		<command>vlc</command>
+	    </action>
+  </item>
+
+
+  <item label="weechat">
+	    <action name="Execute">
+		<enabled>yes</enabled>
+		<name>weechat</name>
+		<command>urxvt -e weechat</command>
+	    </action>
+  </item>
+
+  <item label="mutt">
+	    <action name="Execute">
+		<enabled>yes</enabled>
+		<name>mutt</name>
+		<command>urxvt -e mutt</command>
+	    </action>
+  </item>
+
+  <item label="configure">
+	    <action name="Execute">
+		<enabled>yes</enabled>
+		<name>obconf</name>
+		<command>obconf</command>
+	    </action>
+  </item>
+  <item label="Reconfigure">
+    <action name="Reconfigure" />
+  </item>
+  <item label="Exit">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+  <separator/>
+  <item label="Log Out">
+    <action name="SessionLogout">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
