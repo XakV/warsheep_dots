@@ -25,7 +25,7 @@ URxvt*.transparent: false
 **dynamicColors:      true
 *utf8:               2
 *eightBitInput:      true
-*saveLines:          512
+*saveLines:          10000
 *scrollKey:          true
 *scrollTtyOutput:    false
 *scrollBar:          false
@@ -36,47 +36,10 @@ URxvt*.transparent: false
 
 !URL Functions
 Rxvt.perl-ext-common: default,matcher
-URxvt.url-launcher: /usr/bin/midori
+URxvt.url-launcher: /usr/bin/firefox
 URxvt.matcher.button: 1
 
 
 ! terminal colors ------------------------------------------------------------
-*foreground: #c7d7e7
-*background: #0a141c
-*cursorColor2: #0a141c
-*cursorColor: #bab7b5
-*highlightTextColor: #0a141c
-*highlightColor: #bab7b5
-*colorBD: #CFCFCF
-*colorUL: #A0A0A0
-*colorIT: #686868
 
-! Misc
-*fadeColor: #000000
-*tintColor: #ffffff
-*underlineColor: #bab7b5
-*scrollColor: #b2b2b2
-*troughColor: #969696
-*borderColor: #0a141c
-*pointerColor: #bab7b5
-*pointerColor2: #0a141c
-!
-! ! Bright
-*color8: #a6c2c2
-*color9: #766c6d
-*color10: #6c7670
-*color11: #76706c
-*color12: #6f8faf
-*color13: #706c76
-*color14: #adbfd3
-*color15: #d3dbe4
-!
-! ! Dark
-*color0: #303030
-*color1: #5e5567
-*color2: #565e59
-*color3: #5e5956
-*color4: #6f8faf
-*color5: #59565e
-*color6: #8a98a8
-*color7: #a8afb6
+
